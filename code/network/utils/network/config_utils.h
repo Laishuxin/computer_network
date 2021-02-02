@@ -1,0 +1,4 @@
+#ifndef __CONFIG_UTILS_H__
+#define __CONFIG_UTILS_H__
+#define CONFIG_DEFAULT_LISTEN_BACKLOG 50
+#endif // __CONFIG_UTILS_H__

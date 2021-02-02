@@ -1,0 +1,7 @@
+#ifndef __CONFIGURE__SERVER__
+#define __CONFIGURE__SERVER__
+#define SERVER_PORT 7890
+#define BAIDU_SERVER_ADDR "0.0.0.0"
+#define SERVER_ADDR BAIDU_SERVER_ADDR
+// #define SERVER_ADDR "127.0.0.1"
+#endif // __CONFIGURE__SERVER__

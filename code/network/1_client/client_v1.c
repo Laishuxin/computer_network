@@ -17,7 +17,7 @@ void run() {
   bzero(&saddr, sizeof(struct sockaddr_in));
   // implementation
   cfd = Socket_2();
-  Bind_2(cfd, CLIENT_ADDR, CLIENT_PORT);
+  // Bind_2(cfd, CLIENT_ADDR, CLIENT_PORT);
   Init_addr(&saddr, BAIDU_SERVER_ADDR, SERVER_PORT);
   sfd = Connect_2(cfd, &saddr);
   printf("(client)server fd = %d\n", sfd);

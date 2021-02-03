@@ -3,5 +3,5 @@
 #define CLIENT_ADDR "127.0.0.1"
 #define CLIENT_PORT 7891
 #define SERVER_PORT 7890
-#define BAIDU_SERVER_ADDR "0.0.0.0"
+#define BAIDU_SERVER_ADDR "106.12.133.3"
 #endif // __CONFIGURE__CLIENT_H__
